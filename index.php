@@ -1,5 +1,5 @@
 <?php
-// --- 1. STRINGS ---
+// --- STRINGS ---
 echo "--- STRINGS ---\n";
 
 $texto = "Olá, Mundo!";
@@ -38,7 +38,7 @@ $nome2 = "Maria";
 $idade2 = 30;
 echo "sprintf(): " . sprintf("O nome dela é %s e ela tem %d anos.", $nome2, $idade2) . "\n";
 
-// --- 2. NÚMEROS ---
+// --- NÚMEROS ---
 echo "\n--- NÚMEROS ---\n";
 
 $preco = 1250.75;
@@ -60,7 +60,7 @@ echo "is_numeric(123): " . (is_numeric(123) ? "true" : "false") . "\n"; // true
 echo "is_int(123.45): " . (is_int(123.45) ? "true" : "false") . "\n"; // false
 echo "is_float(123.45): " . (is_float(123.45) ? "true" : "false") . "\n"; // true
 
-// --- 3. ARRAYS ---
+// --- ARRAYS ---
 echo "\n--- ARRAYS ---\n";
 
 $frutas = ["Maçã", "Banana", "Laranja"];
@@ -89,7 +89,7 @@ $capitais = ['Brasil'=>'Brasília','Portugal'=>'Lisboa'];
 print_r(array_keys($capitais));
 print_r(array_values($capitais));
 
-// --- 4. DATA/HORA ---
+// --- DATA/HORA ---
 echo "\n--- DATA/HORA ---\n";
 
 $agora = new DateTime();
@@ -107,7 +107,7 @@ $intervalo = $agora->diff($data_nasc);
 echo "Idade: " . $intervalo->y . " anos\n";
 echo "Diferença total de dias: " . $intervalo->days . "\n";
 
-// --- 5. EXEMPLO COMPLETO DE RELATÓRIO ---
+// --- EXEMPLO COMPLETO DE RELATÓRIO ---
 echo "\n--- RELATÓRIO COMPLETO ---\n";
 
 $dados = [
